@@ -39,14 +39,14 @@ namespace MVVMapp.ViewModels
                 }
             }
         }
-        public string Email
+        public string Mail
         {
-            get { return Friend.Email; }
+            get { return Friend.Mail; }
             set
             {
-                if (Friend.Email != value)
+                if (Friend.Mail != value)
                 {
-                    Friend.Email = value;
+                    Friend.Mail = value;
                     OnPropertyChanged("Email");
                 }
             }
@@ -70,7 +70,7 @@ namespace MVVMapp.ViewModels
             {
                 return ((!string.IsNullOrEmpty(Name.Trim())) ||
                     (!string.IsNullOrEmpty(Phone.Trim())) ||
-                    (!string.IsNullOrEmpty(Email.Trim())));
+                    (!string.IsNullOrEmpty(Mail.Trim())));
             }
         }
         protected void OnPropertyChanged(string propName)

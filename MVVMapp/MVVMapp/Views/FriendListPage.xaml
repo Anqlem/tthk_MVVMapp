@@ -12,7 +12,7 @@
                         <ViewCell.View>
                             <StackLayout>
                                 <Label Text="{Binding Name}" FontSize="Medium" />
-                                <Label Text="{Binding Email}" FontSize="Small" />
+                                <Label Text="{Binding Mail}" FontSize="Small" />
                                 <Label Text="{Binding Phone}" FontSize="Small" />
                             </StackLayout>
                         </ViewCell.View>
